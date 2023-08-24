@@ -1,0 +1,14 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.exclude": [
+    "**/package",
+    "interface",
+    "lambda/**/venv",
+    "cdk.out"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "black-formatter.args": ["--line-length=100"],
+  "editor.formatOnSave": true
+}
